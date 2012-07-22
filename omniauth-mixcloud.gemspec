@@ -2,10 +2,10 @@
 require File.expand_path('../lib/omniauth-mixcloud/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Attila Györffy"]
+  gem.authors       = ["Attila Györffy"]
   gem.email         = ["attila@attilagyorffy.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{OmniAuth Mixcloud Strategy}
+  gem.summary       = %q{OmniAuth Mixcloud Strategy}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "omniauth-mixcloud"
   gem.require_paths = ["lib"]
   gem.version       = Omniauth::Mixcloud::VERSION
+
+  gem.add_dependency 'omniauth-oauth2'
 end
